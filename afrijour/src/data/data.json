@@ -1,0 +1,253 @@
+{
+    "en": {
+      "navigation": {
+        "home": "Home",
+        "features": "Features",
+        "about": "About",
+        "journals": "Journals",
+        "testimonials": "Testimonials",
+        "faq": "FAQ"
+      },
+      "dashboard": "Dashboard",
+      "hero": {
+        "title": "Spotlighting African Journals",
+        "subtitle": "Welcome to AfriJour, your gateway to the rich and diverse world of African scholarship. We are dedicated to amplifying the voices of African journals, offering a platform where their unique narratives and perspectives can shine brightly.",
+        "cta": "Get Started Now"
+      },
+      "features": {
+        "title": "Special features that make AfriJour the best",
+        "items": [
+          {
+            "icon": "icon-violet-feature-1",
+            "title": "Journals",
+            "description": "A diverse collection of African journals from various disciplines, hosted on our platform."
+          },
+          {
+            "icon": "icon-violet-feature-2",
+            "title": "Repositories",
+            "description": "Secure and stable platforms for hosting journals, ensuring their long-term preservation and accessibility."
+          },
+          {
+            "icon": "icon-violet-feature-3",
+            "title": "Indexes",
+            "description": "African Journals Indexers that increase visibility and accessibility of African journals in the global scholarly community."
+          },
+          {
+            "icon": "icon-violet-feature-4",
+            "title": "Reviewers",
+            "description": "African scholars who contribute to the peer review process, ensuring high-quality standards and rigorous academic discourse."
+          }
+        ]
+      },
+      "about": {
+        "title": "Discover the Vibrant Tapestry of African Knowledge",
+        "description": "At AfriJour, we believe that African scholarship deserves a prominent place on the global stage. Our platform is committed to showcasing the intellectual richness and diversity emanating from the African continent. Through innovative analytics and dedicated curation, we empower African scholars and researchers, fostering global collaboration and knowledge exchange.",
+        "cta": "Explore More"
+      },
+      "journals": {
+        "title": "Browse our journals that are just right for you",
+        "description": "Choose from over 20,700 journals and learning paths, with dozens added every week. Top it off with courses that round out your skills and enrich your day-to-day.",
+        "cta": "Go to Dashboard"
+      },
+      "testimonials": {
+        "title": "Share your knowledge & experience with others",
+        "description": "We envision AfriJour as the premier gateway to African journals, fostering a vibrant ecosystem of scholarly exchange and discovery. We aspire to be a catalyst for the global recognition and appreciation of African scholarship, inspiring and empowering the next generation of African scholars and thought leaders."
+      },
+      "faq": {
+        "title": "Frequently asked questions about our Afrijour",
+        "description": "We encourage our students, researchers, Professors to ask us any questions regarding our journals. Our skilled mentors are ready to answer all your questions 24/7."
+      },
+      "footer": {
+        "copyright": "© Copyright 2024, All Rights Reserved",
+        "contact": "info@afrijour.com",
+        "primaryPages": [
+          "Home",
+          "About Us",
+          "Services",
+          "Pricing",
+          "Contact"
+        ],
+        "utilityPages": [
+          "Signup",
+          "Login",
+          "404 Not found",
+          "Password Reset"
+        ],
+        "resources": [
+          "Support",
+          "Privacy policy",
+          "Terms & Conditions",
+          "Strategic finance",
+          "Video guide"
+        ]
+      }
+    },
+    "es": {
+      "navigation": {
+        "home": "Inicio",
+        "features": "Características",
+        "about": "Acerca de",
+        "journals": "Revistas",
+        "testimonials": "Testimonios",
+        "faq": "Preguntas frecuentes"
+      },
+      "dashboard": "Tablero",
+      "hero": {
+        "title": "Enfocando Revistas Africanas",
+        "subtitle": "Bienvenido a AfriJour, tu puerta de entrada al mundo rico y diverso de la scholarship africana. Estamos dedicados a amplificar las voces de las revistas africanas, ofreciendo una plataforma donde sus narrativas y perspectivas únicas pueden brillar con fuerza.",
+        "cta": "Comenzar ahora"
+      },
+      "features": {
+        "title": "Características especiales que hacen de AfriJour lo mejor",
+        "items": [
+          {
+            "icon": "icon-violet-feature-1",
+            "title": "Revistas",
+            "description": "Una colección diversa de revistas africanas de diversas disciplinas, alojadas en nuestra plataforma."
+          },
+          {
+            "icon": "icon-violet-feature-2",
+            "title": "Repositorios",
+            "description": "Plataformas seguras y estables para alojar revistas, asegurando su preservación y accesibilidad a largo plazo."
+          },
+          {
+            "icon": "icon-violet-feature-3",
+            "title": "Índices",
+            "description": "Índices de Revistas Africanas que aumentan la visibilidad y accesibilidad de las revistas africanas en la comunidad académica global."
+          },
+          {
+            "icon": "icon-violet-feature-4",
+            "title": "Revisores",
+            "description": "Académicos africanos que contribuyen al proceso de revisión por pares, asegurando estándares de calidad altos y un riguroso debate académico."
+          }
+        ]
+      },
+      "about": {
+        "title": "Descubre el Vibrante Tapiz del Conocimiento Africano",
+        "description": "En AfriJour, creemos que la scholarship africana merece un lugar destacado en el escenario global. Nuestra plataforma está comprometida con mostrar la riqueza intelectual y la diversidad que emana del continente africano. A través de análisis innovadores y una curación dedicada, empoderamos a académicos y investigadores africanos, fomentando la colaboración y el intercambio de conocimientos a nivel global.",
+        "cta": "Explorar más"
+      },
+      "journals": {
+        "title": "Explora nuestras revistas que son justo lo que necesitas",
+        "description": "Elige entre más de 20,700 revistas y senderos de aprendizaje, con docenas agregadas cada semana. ¡Cúbrelo con cursos que redondean tus habilidades y enriquecen tu día a día!",
+        "cta": "Ir al Tablero"
+      },
+      "testimonials": {
+        "title": "Comparte tu conocimiento y experiencia con otros",
+        "description": "Vemos AfriJour como la puerta de entrada principal a las revistas africanas, fomentando un ecosistema vibrante de intercambio y descubrimiento académico. Aspiramos a ser un catalizador para el reconocimiento y la apreciación globales de la scholarship africana, inspirando y empoderando a la próxima generación de académicos y líderes de pensamiento africanos."
+      },
+      "faq": {
+        "title": "Preguntas frecuentes sobre nuestro Afrijour",
+        "description": "Animamos a nuestros estudiantes, investigadores y profesores a hacernos cualquier pregunta sobre nuestras revistas. Nuestros mentores capacitados están listos para responder todas tus preguntas las 24 horas del día, los 7 días de la semana."
+      },
+      "footer": {
+        "copyright": "© Derechos de autor 2024, todos los derechos reservados",
+        "contact": "info@afrijour.com",
+        "primaryPages": [
+          "Inicio",
+          "Acerca de nosotros",
+          "Servicios",
+          "Precios",
+          "Contacto"
+        ],
+        "utilityPages": [
+          "Registrarse",
+          "Iniciar sesión",
+          "404 No encontrado",
+          "Restablecer contraseña"
+        ],
+        "resources": [
+          "Soporte",
+          "Política de privacidad",
+          "Términos y condiciones",
+          "Finanzas estratégicas",
+          "Guía de video"
+        ]
+      }
+    },
+    "fr": {
+      "navigation": {
+        "home": "Accueil",
+        "features": "Fonctionnalités",
+        "about": "À propos",
+        "journals": "Revues",
+        "testimonials": "Témoignages",
+        "faq": "FAQ"
+      },
+      "dashboard": "Tableau de bord",
+      "hero": {
+        "title": "Mettre en valeur les revues africaines",
+        "subtitle": "Bienvenue sur AfriJour, votre porte d'entrée dans le monde riche et diversifié des études africaines. Nous sommes dédiés à amplifier les voix des revues africaines, offrant une plateforme où leurs narratifs et perspectives uniques peuvent briller vivement.",
+        "cta": "Commencer maintenant"
+      },
+      "features": {
+        "title": "Fonctionnalités spéciales qui font d'AfriJour le meilleur",
+        "items": [
+          {
+            "icon": "icon-violet-feature-1",
+            "title": "Revues",
+            "description": "Une collection diverse de revues africaines de diverses disciplines, hébergées sur notre plateforme."
+          },
+          {
+            "icon": "icon-violet-feature-2",
+            "title": "Rep",
+            "description" : "sds"
+          },
+          {
+          "icon": "icon-violet-feature-3",
+            "title": "Index",
+            "description": "Index des revues africaines qui augmentent la visibilité et l'accessibilité des revues africaines dans la communauté académique mondiale."
+          },
+          {
+            "icon": "icon-violet-feature-4",
+            "title": "Réviseurs",
+            "description": "Des universitaires africains qui contribuent au processus de révision par pairs, garantissant des normes de qualité élevées et un débat académique rigoureux."
+          }
+        ]
+      },
+      "about": {
+        "title": "Découvrez la riche tapisserie du savoir africain",
+        "description": "Chez AfriJour, nous croyons que les études africaines méritent une place de choix sur la scène mondiale. Notre plateforme s'engage à mettre en valeur la richesse intellectuelle et la diversité qui émanent du continent africain. Grâce à des analyses innovantes et une sélection dédiée, nous renforçons les universitaires et chercheurs africains, favorisant la collaboration et l'échange de connaissances à l'échelle mondiale.",
+        "cta": "Explorez plus"
+      },
+      "journals": {
+        "title": "Parcourez nos revues qui vous conviennent parfaitement",
+        "description": "Choisissez parmi plus de 20 700 revues et parcours d'apprentissage, avec des douzaines ajoutées chaque semaine. Terminez avec des cours qui affinent vos compétences et enrichissent votre vie quotidienne !",
+        "cta": "Aller au tableau de bord"
+      },
+      "testimonials": {
+        "title": "Partagez vos connaissances et votre expérience avec les autres",
+        "description": "Nous voyons AfriJour comme la porte d'entrée principale des revues africaines, favorisant un écosystème vibrant d'échange et de découverte académique. Nous aspirons à être un catalyseur pour la reconnaissance et l'appréciation mondiales des études africaines, inspirant et renforçant la prochaine génération d'universitaires et de penseurs africains."
+      },
+      "faq": {
+        "title": "Questions fréquemment posées sur notre Afrijour",
+        "description": "Nous encourageons nos étudiants, chercheurs et professeurs à nous poser des questions concernant nos revues. Nos mentors qualifiés sont prêts à répondre à toutes vos questions 24h/24 et 7j/7."
+      },
+      "footer": {
+        "copyright": "© Droits d'auteur 2024, tous droits réservés",
+        "contact": "info@afrijour.com",
+        "primaryPages": [
+          "Accueil",
+          "À propos de nous",
+          "Services",
+          "Tarification",
+          "Contact"
+        ],
+        "utilityPages": [
+          "Inscription",
+          "Connexion",
+          "404 Non trouvé",
+          "Réinitialiser le mot de passe"
+        ],
+        "resources": [
+          "Support",
+          "Politique de confidentialité",
+          "Conditions d'utilisation",
+          "Finance stratégique",
+          "Guide vidéo"
+        ]
+      }
+    }
+  }
+  
+  
