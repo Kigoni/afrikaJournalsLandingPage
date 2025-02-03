@@ -51,7 +51,7 @@ export function ThematicAreas() {
 
   if (loading) {
     return (
-      <div className="flex h-12 items-center justify-center ">
+      <div className="flex h-12 items-center justify-center">
         <div className="h-5 w-5 animate-spin rounded-full border-2 border-teal-500 border-t-transparent" />
       </div>
     );
@@ -67,12 +67,12 @@ export function ThematicAreas() {
 
   return (
     <div className="relative bg-[#ccd6e8] py-2 z-10">
-      <div className="flex items-center justify-center gap-2 text-sm font-medium text-teal-700 ">
+      <div className="flex items-center justify-center gap-2 text-sm font-medium text-teal-700">
         <BookOpen className="h-4 w-4" />
         <span>Research Areas</span>
       </div>
-      
-      <div className="relative mt-2 flex h-10 items-center justify-center overflow-hidden px-4 ">
+
+      <div className="relative mt-2 flex h-10 items-center justify-center overflow-hidden px-4">
         <AnimatePresence mode="popLayout">
           {visibleIndices.map((index) => (
             <motion.div

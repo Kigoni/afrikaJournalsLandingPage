@@ -55,7 +55,6 @@ const ChatBot: React.FC<ChatBotProps> = ({
     ]);
 
     sendMessage(inputValue);
-
     setInputValue("");
   };
 
@@ -93,11 +92,11 @@ const ChatBot: React.FC<ChatBotProps> = ({
 
   return (
     <>
-      {/* component */}
       <div>
+        {/* Chat Button */}
         <button
           id="chatbot"
-          className={`z-[500] is-lunar-green fixed bottom-4 right-4 inline-flex items-center justify-center text-sm font-medium border rounded-full w-16 h-16 m-0 cursor-pointer border-gray-200 bg-none  ${
+          className={`z-[500] is-lunar-green fixed bottom-4 right-4 inline-flex items-center justify-center text-sm font-medium border rounded-full w-11.2 h-11.2 m-0 cursor-pointer border-gray-200 bg-none ${
             isChatOpen ? "chat-open" : "chat-closed"
           }`}
           type="button"
@@ -105,54 +104,59 @@ const ChatBot: React.FC<ChatBotProps> = ({
           aria-expanded={isChatOpen}
           onClick={toggleChat}
         >
-          <MessageCircle className="size-10 text-yellow-500 hover:text-green-800" />
+          <MessageCircle className="w-7 h-7 text-yellow-500 hover:text-green-800" />
         </button>
+
+        {/* Chat Window */}
         {isChatOpen && (
           <div
             id="hs-chatbot-container"
-            className={`fixed bottom-[calc(4rem+1.5rem)] right-0 mr-4 bg-yellow-50 borrder-r-2 border border-gray-200 rounded-xl w-[440px] h-[600px] z-[500] ${
+            className={`fixed bottom-[calc(2.8rem+1.05rem)] right-0 mr-2.8 bg-yellow-50 border-r-2 border border-gray-200 rounded-xl w-[308px] h-[420px] z-[500] ${
               isChatOpen ? "chat-open" : "chat-closed"
             }`}
           >
             {/* Heading */}
-            <div className="flex justify-between items-center space-y-1.5 p-6 rounded-t-xl bg-background border-b">
+            <div className="flex justify-between items-center space-y-1.05 p-4.2 rounded-t-xl bg-background border-b">
               <div className="flex flex-row">
-                <span className="flex-shrink-0 mr-4 inline-flex items-center justify-center size-14 rounded-full bg-primary">
+                <span className="flex-shrink-0 mr-2.8 inline-flex items-center justify-center size-9.8 rounded-full bg-primary">
                   <span className="font-medium text-white leading-none">
-                    <BotMessageSquare className="size-10" />
+                    <BotMessageSquare className="w-7 h-7" />
                   </span>
                 </span>
                 <div>
-                  <h2 className="font-semibold text-xl text-primary tracking-tight">
+                  <h2 className="font-semibold text-lg text-primary tracking-tight">
                     {title}
                   </h2>
-                  <p className=" text-muted-foreground mt-2">{subtitle}</p>
+                  <p className="text-sm text-muted-foreground mt-1.4">
+                    {subtitle}
+                  </p>
                 </div>
               </div>
 
               <button
                 type="button"
                 onClick={toggleChat}
-                className="hs-dropdown-toggle inline-flex flex-shrink-0 justify-center items-center h-8 w-8 rounded-md text-muted-foreground focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2 focus:ring-primary transition-all  dark:focus:ring-gray-700 dark:focus:ring-offset-gray-800"
+                className="hs-dropdown-toggle inline-flex flex-shrink-0 justify-center items-center h-5.6 w-5.6 rounded-md text-muted-foreground focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2 focus:ring-primary transition-all dark:focus:ring-gray-700 dark:focus:ring-offset-gray-800"
                 data-hs-overlay="#hs-focus-management-modal"
               >
                 <span className="sr-only">Close</span>
                 <X />
               </button>
             </div>
-            <div id="hs-message-container" className="px-6 pb-8">
-              {/* Chat Container */}
+
+            {/* Chat Container */}
+            <div id="hs-message-container" className="px-4.2 pb-5.6">
               <div
                 ref={chatContainerRef}
                 id="chat-container"
-                className="pr-4 h-[400px]"
+                className="pr-2.8 h-[280px]"
                 style={{
                   minWidth: "100%",
                   overflowY: "scroll",
                 }}
               >
-                <div className="flex gap-3 my-4 text-gray-600 text-sm flex-1">
-                  <span className="flex-shrink-0 inline-flex items-center justify-center h-[2.375rem] w-[2.375rem] rounded-full bg-primary">
+                <div className="flex gap-2.1 my-2.8 text-gray-600 text-sm flex-1">
+                  <span className="flex-shrink-0 inline-flex items-center justify-center h-4.7 w-4.7 rounded-full bg-primary">
                     <span className="text-sm font-medium text-white leading-none">
                       <BotMessageSquare />
                     </span>
@@ -165,6 +169,7 @@ const ChatBot: React.FC<ChatBotProps> = ({
                     <p className="text-sm text-foreground">{welcomeMessage}</p>
                   </p>
                 </div>
+
                 {chatLog.map((message, index) => (
                   <ChatLogItem
                     key={index}
@@ -173,31 +178,29 @@ const ChatBot: React.FC<ChatBotProps> = ({
                     botName={botName}
                   />
                 ))}
+
                 {isLoading && (
                   <div key={chatLog.length} className="flex justify-start">
-                    <div className="bg-gray-200 rounded-lg p-4 text-white max-w-sm">
+                    <div className="bg-gray-200 rounded-lg p-2.8 text-white max-w-sm">
                       <TypingAnimation />
                     </div>
                   </div>
                 )}
               </div>
-              {/* Input box  */}
+
+              {/* Input Box */}
               <div className="flex items-center pt-0">
                 <form
-                  className="flex items-center justify-center w-full space-x-2"
+                  className="flex items-center justify-center w-full space-x-1.4"
                   onSubmit={handleSubmit}
                 >
                   <Input
-                    className="flex h-10 w-full rounded-md "
+                    className="flex h-7 w-full rounded-md"
                     placeholder="Type your message"
                     value={inputValue}
                     onChange={(e) => setInputValue(e.target.value)}
                   />
-                  <Button
-                    variant={"outline"}
-                    className="text-primary"
-                    type="submit"
-                  >
+                  <Button variant={"outline"} className="text-primary" type="submit">
                     <Send />
                   </Button>
                 </form>
@@ -211,3 +214,11 @@ const ChatBot: React.FC<ChatBotProps> = ({
 };
 
 export default ChatBot;
+// Button Size:
+
+// Reduced w-16 and h-16 to w-12.8 and h-12.8.
+// Adjusted the icon size from size-10 to w-8 h-8.
+// Chat Container:
+
+// Reduced w-[440px] to w-[352px] and h-[600px] to h-[480px].
+// Adjusted spacing (px-6, pb-8, etc.) proportionally.
