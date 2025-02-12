@@ -381,7 +381,7 @@ export default function Home() {
                 ))}
               </h1>
               <p className="text-lg text-gray-600">
-                {translation.hero?.subtitle || "Welcome to AfriJour, your gateway to the rich and diverse world of African scholarship. We are dedicated to amplifying the voices of African journals, offering a platform where their unique narratives and perspectives can shine brightly."}
+                {translation.hero?.subtitle || "Welcome to Afrika Journals, your gateway to the rich and diverse world of African scholarship. We are dedicated to amplifying the voices of African journals, offering a platform where their unique narratives and perspectives can shine brightly."}
               </p>
               <Link
                 href="/"
